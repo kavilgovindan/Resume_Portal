@@ -86,9 +86,14 @@ a.nav-link {
   padding-top: 60px;
 }
 
+
 /*tabs in the candidate detail page*/
 .main-details{
     padding: 3px 0;
+}
+
+span.sub-title{
+  font-size: x-large;
 }
 .tabset > input[type="radio"] {
     position: absolute;
@@ -155,4 +160,7 @@ a.nav-link {
   
   .tabset {
     max-width: 65em;
+  }
+  #edit-btn{
+    margin: 20px 50px 0px 0px;
   }

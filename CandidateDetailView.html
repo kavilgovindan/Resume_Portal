@@ -61,6 +61,12 @@
 
   <!--right side or detail view component-->
   <div class="right">
+    <div>
+      <span class="sub-title">Candidate Details</span>
+      <button type="button" class="btn btn-info float-right" style="margin:5px 50px 0px 0px;"><i class="fas fa-print"></i> print</button>
+      <button type="button" class="btn btn-danger float-right" style="margin:5px 50px 0px 0px;"><i class="fas fa-download"></i> download</button>
+    </div>
+    
     <div class="container-fluid" style="padding: 20px 0 20px 0;">
       <div class="row main-details">
         <span class="col-md-3">Candidate Id</span>
@@ -89,17 +95,128 @@
       <!-- Tab 3 btn -->
       <input type="radio" name="tabset" id="tab3" aria-controls="Others">
       <label for="tab3">Others</label>
-      <button type="button" class="btn btn-primary float-right" style="margin:3px 20px 0px 0px;"><i class="fas fa-edit"></i></button>
+      <button type="button" class="btn btn-primary float-right" id="edit-btn"><i class="fas fa-edit"></i></button>
       <!--tab panels-->
       <div class="tab-panels">
-        <section id="PersonalDetails" class="tab-panel">
-          <h2>6A. Märzen</h2>
+        <section id="personal-details" class="tab-panel">
+          <div class="row main-details ">
+            <div class="col-md-3">
+              <span>Email id:</span>
+            </div>
+            <div class="col-md-3">
+              <span>: kannankanna@gmail.com</span>
+            </div>
+          </div>
+          <div class="row main-details">
+            <div class="col-md-3">
+             <span>Mobile Number</span>
+            </div>
+            <div class="col-md-3">
+              <span>: 9788776655</span>
+            </div>
+          </div>
+          <div class="row main-details">
+            <div class="col-md-3">
+              <span>Date Of Birth</span>
+            </div>
+            <div class="col-md-3">
+              <span>: 02/02/1998</span>
+            </div>
+          </div>
+          <div class="row main-details">
+            <div class="col-md-3">
+              <span>Current Location</span>
+            </div>
+            <div class="col-md-3">
+              <span>: london</span>
+            </div>
+          </div>
+         
       </section>
-        <section id="rauchbier" class="tab-panel">
-          <h2>6B. Rauchbier</h2>
+        <section id="official-details" class="tab-panel">
+          <div class="row main-details ">
+            <div class="col-md-3">
+              <span>Job applied for</span>
+            </div>
+            <div class="col-md-3">
+              <span>dotnet developer</span>
+            </div>
+            <div class="col-md-3">
+              <span>years of experience</span>
+             </div>
+             <div class="col-md-3">
+               <span>: 55 years 10 months</span>
+             </div>            
+          </div>
+          <div class="row main-details">
+            <div class="col-md-3">
+              <span>Current salary</span>
+            </div>
+            <div class="col-md-3">
+              <span>: 771998</span>
+            </div>
+            <div class="col-md-3">
+              <span>Expected salary</span>
+            </div>
+            <div class="col-md-3">
+              <span>: 7000000</span>
+            </div>
+          </div>
+          <div class="row main-details">
+            <div class="col-md-3">
+              <span>Current company</span>
+            </div>
+            <div class="col-md-3">
+              <span>: googleee</span>
+            </div>
+            <div class="col-md-3">
+              <span>Qualification</span>
+            </div>
+            <div class="col-md-3">
+              <span>: B.E EEE</span>
+            </div>
+          </div>
+          <div class="row main-details">
+            <div class="col-md-3">
+              <span>Technical skills</span>
+            </div>
+            <div class="col-md-3">
+              <span>: javascript ,python, php,c# c++,html,css,angular,react,firebase,node.js,git,version control system</span>
+            </div>
+            <div class="col-md-3">
+              <span>Notice period</span>
+            </div>
+            <div class="col-md-3">
+              <span>: 5 months</span>
+            </div>
+          </div>
+
         </section>
-        <section id="dunkles" class="tab-panel">
-          <h2>6C. Dunkles Bock</h2>
+        <section id="others" class="tab-panel">
+          <div class="row main-details">
+            <div class="col-md-3">
+              <span>Soft skills</span>
+            </div>
+            <div class="col-md-3">
+              <span>: report management ,team handling, ms office, Teaching,giving seminors</span>
+            </div> 
+          </div>
+          <div class="row main-details">
+            <div class="col-md-3">
+              <span>Communication level</span>
+            </div>
+            <div class="col-md-3">
+              <span> intermidate</span>
+            </div>
+          </div>
+          <div class="row main-details">
+            <div class="col-md-3">
+              <span>commands</span>
+            </div>
+            <div class="col-md-3">
+              <span>: he is such a bad guys doesnt give up that easy he will be the bad programmer every one could know</span>
+            </div>
+          </div>
         </section>
       </div>
       
